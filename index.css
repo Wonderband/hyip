@@ -1,6 +1,5 @@
 body {
   background-image: url("./img/background-img.JPG");
-  /* background-size: cover; */
   background-repeat: no-repeat;
   height: 100vh;
   background-size: 100%;
@@ -80,8 +79,6 @@ li:last-child {
   border-radius: 50%;
   color: white;
   font-weight: 700;
-  /* border: 1px solid black; */
-  /* background-position: 50% 50%; */
   background-color: red;
   text-align: center;
 }
