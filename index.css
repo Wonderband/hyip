@@ -1,0 +1,68 @@
+body {
+  background-image: url("./img/background-img.JPG");
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+li {
+  display: block;
+  position: absolute;
+  width: 80%;
+  height: 4vw;
+  cursor: pointer;
+}
+
+li:last-child {
+  height: 8vw;
+}
+
+.modalWindow {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+  width: 50%;
+  background-color: white;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
+  padding: 10px 15px;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.6;
+}
+
+.demand {
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.answer {
+  font-style: italic;
+  padding: 0 15px;
+  line-height: 1.6em;
+  padding-bottom: 10px;
+}
+
+.hidden {
+  display: none;
+}
