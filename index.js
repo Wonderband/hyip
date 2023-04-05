@@ -34,7 +34,7 @@ const openModal = (num) => {
     case 2:
       requirement = "Буде плюсом базові знання JavaScript";
       myAnswer =
-        "Я знаю JavaScript не тільки на базовому рівні, але багато працював з асинхронними запитами на бекенд (CRUD, REST-API, AJAX), використовував bearer tokens, localStorage, sessionStorage, збирав проєкти за допомогою Parcel, Webpack.  <br/> Знайомий з AngularJS, React, Redux, Handlebars, Axios та багатьма іншими бібліотеками та фреймворками.";
+        "Я знаю JavaScript не тільки на базовому рівні, але багато працював з асинхронними запитами на бекенд (CRUD, REST-API, AJAX), використовував bearer tokens, localStorage, sessionStorage, збирав проєкти за допомогою Parcel, Webpack.  <br/> Знайомий з AngularJS, React, Redux, Handlebars, Axios та багатьма іншими бібліотеками та фреймворками.<br/>Я люблю писати код! ";
       break;
     case 3:
       requirement = "Буде плюсом знання фреймворку Bootstrap або інших";
