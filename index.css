@@ -31,9 +31,9 @@ li:last-child {
 
 .modalWindow {
   position: absolute;
-  top: 25%;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, -25%);
+  transform: translate(-50%, -50%);
   width: 50%;
   background-color: white;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
@@ -58,6 +58,7 @@ li:last-child {
 
 .answer {
   font-style: italic;
+  font-size: 16px;
   padding: 0 15px;
   line-height: 1.6em;
   padding-bottom: 10px;
@@ -65,4 +66,40 @@ li:last-child {
 
 .hidden {
   display: none;
+}
+
+.close {
+  cursor: pointer;
+  display: block;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  font-size: 18px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: white;
+  font-weight: 700;
+  /* border: 1px solid black; */
+  /* background-position: 50% 50%; */
+  background-color: red;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .demand {
+    font-size: 14px;
+  }
+
+  .answer {
+    font-size: 10px;
+  }
+
+  .close {
+    top: 5px;
+    right: 5px;
+    font-size: 10px;
+    width: 12px;
+    height: 12px;
+  }
 }
